@@ -1,0 +1,18 @@
+# IDE
+.idea/
+.vscode/
+
+# Gradle
+.gradle/
+build/
+tmp/
+
+# Compiled plugin
+*.jar
+
+# Logs
+logs/
+crash-reports/
+
+# Local config (optional)
+config.yml

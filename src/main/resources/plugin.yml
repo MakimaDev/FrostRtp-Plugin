@@ -1,0 +1,12 @@
+name: FrostRtp
+version: '1.0'
+main: ru.eclipsedev.frostRtp.FrostRtp
+api-version: '1.21'
+authors: [ MakimaDev ]
+commands:
+  nrtp:
+    usage: /nrtp <type> | /nrtp reload
+    aliases: [randomteleport]
+permissions:
+  rtp.admin.reload:
+    default: op
