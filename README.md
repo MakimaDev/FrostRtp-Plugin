@@ -1,45 +1,32 @@
-❄️ FrostRTP
+# FrostRTP
+
 A lightweight, safe, and highly configurable Random Teleport (RTP) plugin for Spigot/Paper Minecraft servers.
 
-✨ Features:
+## Features
 
-✅ Safe teleportation (avoids lava, water, fire, cacti, etc.)
+- **Safe teleportation** - avoids lava, water, fire, cacti, and other dangerous blocks
+- **Multi-world support** - define different RTP types for different worlds
+- **Per-type cooldowns** with bypass permission (`rtp.bypass`)
+- **Permission-based RTP types** (e.g., `/rtp nether`, `/rtp end`)
+- **Configurable min/max radius** settings
+- **"Near" mode** - teleport only if enough players are online in the target world
+- **Full hex color support** (`&#RRGGBB`) in messages
+- **In-game reload** with `/nrtp reload` (permission: `rtp.admin.reload`)
+- **Async location search** - no TPS lag!
 
-🌍 Multi-world support — define different RTP types for different worlds
+> **Note:** Uses `/nrtp` as the default command (to avoid conflicts). Change it in plugin.yml if needed.
 
-⏱️ Per-type cooldowns with bypass permission (rtp.bypass)
+## Installation
 
-🔐 Permission-based RTP types (e.g., /rtp nether, /rtp end)
+1. Drop the jar file into your plugins folder
+2. Start/restart your server
+3. Use `/nrtp [type]` in-game!
 
-🧭 Configurable min/max radius
+## Permissions
 
-👥 "Near" mode — teleport only if enough players are online in the target world
+- `rtp.default`
+- `rtp.nether`
+- `rtp.bypass`
+- `rtp.admin.reload`
 
-🎨 Full hex color support (&#RRGGBB) in messages
-
-🔄 In-game reload with /nrtp reload (permission: rtp.admin.reload)
-
-📦 Async location search — no TPS lag!
-
-⚠️ Uses /nrtp as the default command (to avoid conflicts). Change it in plugin.yml if needed.
-
-📥 Installation:
-
-Drop jar into your plugins folder
-
-Start/restart your server
-
-Use /nrtp [type] in-game!
-
-
-🔧 Permissions:
-
-rtp.default
-
-rtp.nether
-
-rtp.bypass
-
-rtp.admin.reload
-
-Made with ❤️ by MakimaDev | Compatible with Paper 1.16.5 – 1.21+
+**Made with ❤️ by MakimaDev** | Compatible with Paper 1.21+
